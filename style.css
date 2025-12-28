@@ -38,3 +38,13 @@
   padding: 60px 30px;
   background: linear-gradient(135deg, #0a1325, #050b16);
 }
+.reveal {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: 0.8s ease;
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
